@@ -98,6 +98,7 @@ public class AppointmentMaker
             String newM = m.toString();                                         //Creating string to use in occursOn method
             if((m.occursOn(arr, dayString))){                                   //See Monthly.java for comments
                 System.out.print("You have an appointment on that day. Please select another date: \n");
+                in.nextLine();
                 saveMonthlyAppointment();
             }
             arr.add(newM);                                                      //adds new String to ArrayList
@@ -165,6 +166,7 @@ public class AppointmentMaker
             String newO = o.toString();                                         //Creating String for occursOn method
             if((o.occursOn(arr, dayString, monthString, yearString))){          //See Appointment.java for method comments
                 System.out.println("You have an appointment on that day. Please select another date: ");
+                in.nextLine();
                 saveOnetimeAppointment();
             }
             arr.add(newO);                                                      //Adding appointment info to ArrayList
