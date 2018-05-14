@@ -1,4 +1,4 @@
-<h1>Appointment Project for CIS 206</h1>
+<h1>Appointment Project for CIS 206 but with Swing!</h1>
 
 <h3>P9.21</h3>
 Implement a superclass APPOINTMENT and subclasses ONETIME, DAILY, and MONTHLY. An Appointment has a description(for example, "see the dentist") and a date. Write a method occursOn(int year, int month, int day) that checks whether the appointment occurs on that date. For example, for a monthly appointment, you must check whether the day of the month matches. Then fill an array of Appointment objects with a mixture of appointments. Have the user enter a date and print out all appointments that occur on that date.
